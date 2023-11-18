@@ -85,7 +85,6 @@ body{
   cursor: pointer;
 }
 
-
 .payment-logo{
   position: absolute;
   top: -50px;
@@ -137,7 +136,8 @@ img {
   }
 
   img {
-    max-width: 20px;
+    margin-right: 20px; /* Remove the margin */
+    margin-top: 20px; /* Add margin-top to create space */
+    max-width: 80%;
   }
 }
-
